@@ -1,35 +1,176 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2023년 버킷리스트</title>
-    <link rel="stylesheet" type="text/css" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@400;500;700&display=swap');
-        *{font-family: 'Jua', sans-serif !important;}
-        .bg{width: 360px;background-image : url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");}
-        /* .title {color: white;background-color: tomato;font-size: 24px;padding: 4px 14px;border-radius: 8px;} */
-        /* .msg{font-weight: bold;} */
-        .bucket{width: 160px;height: 160px;}
-        /* .img1{background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");background-size: cover;background-position: center;}
-        .img2{background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");background-size: cover;background-position: center;} */
-    </style>
-</head>
-
-<body class="bg center">
-    <h1 class="title-t2">2023 신년 계획</h1>
-    <p class="msg">열심히 살아보자!</p>
-    <div class="row flex-row wrap">
-        <div class="bucket img1-t2 center">코딩 공부하기</div>
-        <div class="bucket img2-t2 center">취업하기</div>
-        <div class="bucket img2-t2 center">집 청소하기</div>
-        <div class="bucket img1-t2 center">취미생활 다양하게 해보기</div>
-        <div class="bucket img1-t2 center">운동하기</div>
-        <div class="bucket img2-t2 center">과식 줄이기</div>
-    </div>
-</body>
-
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta property="og:image" content="img/rep_img.jpg">
+        <title>Portfolio</title>
+        <link rel="shortcut icon" href="img/ico.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/colorbox.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="wrap" class="ibg">
+            <div class="box index01 section">
+                <p class="since">SINCE 2021. 06</p>
+            </div>
+            <div class="box index02 section">
+                <div class="skill_bar">
+                    <p class="ps"></p>
+                    <p class="ai"></p>
+                    <p class="vs"></p>
+                    <p class="js"></p>
+                </div>
+            </div>
+            <div class="box index03 section">
+                <div class="i3_in">
+                    <h2>Contents</h2>
+                    <div class="cont_list">
+                        <div class="cont_box"><a href="sub/clinique.html">
+                            <img src="img/thum01.jpg" alt="clinique">
+                        </a></div>
+                        <div class="cont_box"><a href="sub/fujifilm.html">
+                            <img src="img/thum02.jpg" alt="fujifilm">
+                        </a></div>
+                        <div class="cont_box"><a href="sub/localtrip.html">
+                            <img src="img/thum03.jpg" alt="localtrip">
+                        </a></div>
+                        <div class="cont_box"><a href="sub/graphic.html">
+                            <img src="img/thum04.jpg" alt="graphic">
+                        </a></div>
+                    </div>
+                    <div class="index_list">
+                        <ul>
+                            <li><a href="sub/clinique.html">
+                                <h3><span>01</span>Web Redesign</h3>
+                                <p>CLINIQUE</p>
+                            </a></li>
+                            <li><a href="sub/fujifilm.html">
+                                <h3><span>02</span>Responsive Web Redesign</h3>
+                                <p>FUJIFILM</p>
+                            </a></li>
+                            <li><a href="sub/localtrip.html">
+                                <h3><span>03</span>Mobile App Design</h3>
+                                <p>Local Trip</p>
+                            </a></li>
+                            <li><a href="sub/graphic.html">
+                                <h3><span>04</span>Graphic</h3>
+                                <p>Banner</p>
+                                <p>Graphic</p>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="index_pager"></div>
+                </div>
+            </div>
+            <div class="box index04 section">
+                <div class="i4_in">
+                    <h2>Preview</h2>
+                    <div class="i4_box">
+                        <ul>
+                            <li>
+                                <h3>01</h3>
+                                <div class="i4b_cont">
+                                    <p class="i4bc_img"><a href="img/clinique.jpg" class="popup"><img src="img/clinique.jpg" alt=""></a></p>
+                                    <div class="i4bc_text"><a href="sub/clinique.html">
+                                        <p class="i4bct_tit">Web Redesign - CLINIQUE</p>
+                                        <p class="i4bct_det">View Detail</p>
+                                    </a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <h3>02</h3>
+                                <div class="i4b_cont">
+                                    <p class="i4bc_img"><a href="img/fujifilm.jpg" class="popup"><img src="img/fujifilm.jpg" alt=""></a></p>
+                                    <div class="i4bc_text"><a href="sub/fujifilm.html">
+                                        <p class="i4bct_tit">Responsive Web Redesign - FUJIFILM</p>
+                                        <p class="i4bct_det">View Detail</p>
+                                    </a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <h3>03</h3>
+                                <div class="i4b_cont">
+                                    <p class="i4bc_img"><a href="img/localtrip.png" class="popup"><img src="img/localtrip.png" alt=""></a></p>
+                                    <div class="i4bc_text"><a href="sub/localtrip.html">
+                                        <p class="i4bct_tit">App Design - Local Trip</p>
+                                        <p class="i4bct_det">View Detail</p>
+                                    </a></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="i44_box">
+                        <h3>04</h3>
+                        <ul>
+                            <li>
+                                <div class="i4b_cont">
+                                    <p class="i4bc_img"><a href="img/ban01.jpg" class="popup"><img src="img/ban01.jpg" alt=""></a></p>
+                                    <div class="i4bc_text"><a href="sub/graphic.html">
+                                        <p class="i4bct_tit">Graphic Design - Banner01</p>
+                                        <p class="i4bct_det">View Detail</p>
+                                    </a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="i4b_cont">
+                                    <p class="i4bc_img"><a href="img/ban02.jpg" class="popup"><img src="img/ban02.jpg" alt=""></a></p>
+                                    <div class="i4bc_text"><a href="sub/graphic.html">
+                                        <p class="i4bct_tit">Graphic Design - Banner02</p>
+                                        <p class="i4bct_det">View Detail</p>
+                                    </a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="i4b_cont">
+                                    <p class="i4bc_img"><a href="img/ban03.jpg" class="popup"><img src="img/ban03.jpg" alt=""></a></p>
+                                    <div class="i4bc_text"><a href="sub/graphic.html">
+                                        <p class="i4bct_tit">Graphic Design - Banner03</p>
+                                        <p class="i4bct_det">View Detail</p>
+                                    </a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="i4b_cont">
+                                    <p class="i4bc_img"><a href="img/ban04.jpg" class="popup"><img src="img/ban04.jpg" alt=""></a></p>
+                                    <div class="i4bc_text"><a href="sub/graphic.html">
+                                        <p class="i4bct_tit">Graphic Design - Banner04</p>
+                                        <p class="i4bct_det">View Detail</p>
+                                    </a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="i4b_cont">
+                                    <p class="i4bc_img"><a href="img/promo01.jpg" class="popup"><img src="img/promo01.jpg" alt=""></a></p>
+                                    <div class="i4bc_text"><a href="sub/graphic.html">
+                                        <p class="i4bct_tit">Graphic Design - Promotion01</p>
+                                        <p class="i4bct_det">View Detail</p>
+                                    </a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="i4b_cont">
+                                    <p class="i4bc_img"><a href="img/promo02.jpg" class="popup"><img src="img/promo02.jpg" alt=""></a></p>
+                                    <div class="i4bc_text"><a href="sub/graphic.html">
+                                        <p class="i4bct_tit">Graphic Design - Promotion02</p>
+                                        <p class="i4bct_det">View Detail</p>
+                                    </a></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> <!--#wrap-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/jquery.fullpage.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/jquery.colorbox-min.js"></script>
+        <script src="js/script.js"></script>
+    </body> 
 </html>
